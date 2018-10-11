@@ -15,7 +15,7 @@ PROCESS-
 '''
 
 #Inputting data normally
-dataOriginal = open('C:/Users/sahil/Documents/Business Analytics/Coursework - Fall Term/Data Science 2/Assignment1/Flying_Fitness.csv', 'r').readlines()
+dataOriginal = open('C:/Users/sahil/Documents/Analytics/Flying_Fitness.csv', 'r').readlines()
 data = []
 for line in dataOriginal:
 	row = line.strip().split(',')
